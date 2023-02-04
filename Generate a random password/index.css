@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    background-color: #343C43;
+}
+
+.container{
+    width: 500px;
+    margin: 50px auto;
+
+}
+h1{
+ color: whitesmoke;
+}
+span{
+ color: #64DBFA;;
+ text-decoration: underline;
+
+}
+h3{
+    color: #FAEBD7;
+    margin-bottom: 20px;
+}
+button{
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #ADD8E6;
+    color: black;
+    border-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px;
+    border-radius: 5px;
+}
+button:hover{
+background-color:#2F4F4F ;
+color:white;
+border-color: #FAEBD7
+}
+#passwordsOne, #passwordsTwo{
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+    background-color: black;
+
+    
+
+}
+
+.pass2{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.copyBtn{
+    margin-left: 160px;
+    display: flex;
+    position:fixed;
+    background-color: #2F4F4F;
+    color: white;
+    border-color: #FAEBD7
+}
+.copyBtn:hover {
+    background-color: #ADD8E6;
+    color: black;
+    border-color: gray;
+}
